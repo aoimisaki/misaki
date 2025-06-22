@@ -1,0 +1,95 @@
+body {
+  font-family: '游明朝体', 'Yu Mincho', 'Hiragino Mincho ProN', serif;
+  background-color: #1a0d0f;
+  color: #f4d4df;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: linear-gradient(to right, #3a0d1a, #2b0b13);
+  padding: 2em 1em;
+  border-bottom: 2px solid #d46286;
+  text-align: center;
+  color: #f9b3c9;
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-size: 2.6em;
+  margin-bottom: 0.3em;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+}
+.intro {
+  font-size: 1.15em;
+  color: #f9c6dc;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-family: '游明朝体', 'Yu Mincho', serif;
+}
+main {
+  max-width: 800px;
+  margin: 2.5em auto;
+  padding: 2em;
+  background-color: #2c1118;
+  border: 1px solid #d46286;
+  border-radius: 14px;
+  box-shadow: 0 0 20px rgba(212, 98, 134, 0.3);
+  font-family: '游明朝体', 'Yu Mincho', serif;
+}
+article {
+  margin-bottom: 2.8em;
+}
+h2 {
+  color: #e85d8e;
+  border-left: 5px solid #e85d8e;
+  padding-left: 0.7em;
+  margin-bottom: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+}
+a {
+  color: #f78fb3;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.25s ease;
+  font-family: 'Playfair Display', serif;
+}
+a:hover {
+  color: #ffc5dd;
+  text-decoration: underline;
+}
+.photo-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 2em 0;
+  flex-wrap: wrap;
+}
+.photo-container img {
+  max-width: 48%;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(230, 90, 130, 0.5);
+}
+ul.toy-list {
+  list-style-type: disc;
+  padding-left: 1.2em;
+  color: #f9c6dc;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: '游明朝体', 'Yu Mincho', serif;
+}
+footer {
+  text-align: center;
+  padding: 2em 0;
+  color: #cc8fa8;
+  font-size: 0.95em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+}
